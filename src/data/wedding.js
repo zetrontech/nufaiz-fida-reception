@@ -52,7 +52,8 @@ export const wedding = {
   hosts: 'Dr Asiq Sideeque Nalakath, Dr Ruxana K, Avez & Aazim',
   // Wording supplied by the client.
   prayer: ['In the name of Allah', 'The Most Gracious, The Most Merciful'],
-  invitation: 'Dr. Asiq Sideeque Nalakath, Dr. Ruxana K, Avez and Aazim invites you to the Wedding Reception of',
+  // First entry is kept on one line (client request).
+  invitation: ['Dr. Asiq Sideeque Nalakath, Dr. Ruxana K,', 'Avez and Aazim invites you to the Wedding Reception of'],
   theme: 'Two hearts, one promise, a lifetime together.',
   verse: 'May Allah bless you both, shower His blessings upon you, and unite you in goodness.',
   verseArabic: 'بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ',

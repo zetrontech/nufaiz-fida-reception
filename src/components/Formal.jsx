@@ -12,7 +12,9 @@ export default function Formal() {
               <br />
               {w.prayer[1]}
             </p>
-            <p className="formal-invite">{w.invitation}</p>
+            <p className="formal-invite">
+              <span className="invite-hosts">{w.invitation[0]}</span> {w.invitation[1]}
+            </p>
             <div className="formal-couple">
               {Object.values(w.couple).map((p, i) => (
                 <div key={p.formal}>
